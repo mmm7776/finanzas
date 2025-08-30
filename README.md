@@ -1,0 +1,2 @@
+# finanzas
+Web financiera automática
