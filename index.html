@@ -5,21 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tanatrade Analytics</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
-      margin: 0;
       font-family: 'Georgia', serif;
-      background-color: #f5f3eb;
-      color: #222;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfcf8;
+      color: #333;
     }
 
     header {
       background-color: #111;
-      color: #e7dab1;
+      color: #f5f0e6;
       padding: 3rem 1rem;
       text-align: center;
     }
@@ -30,21 +26,18 @@
     }
 
     header p {
-      font-size: 1.3rem;
-      max-width: 800px;
+      font-size: 1.25rem;
+      max-width: 700px;
       margin: 0 auto;
     }
 
-    .hero-image {
-      background: url('https://images.unsplash.com/photo-1573164574396-9d227e408ad4') no-repeat center center/cover;
-      height: 250px;
-      border-bottom: 5px solid #e7dab1;
-    }
-
     main {
-      max-width: 960px;
+      max-width: 900px;
       margin: 3rem auto;
-      padding: 0 1rem;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
 
     section {
@@ -52,135 +45,207 @@
     }
 
     h2 {
-      color: #003049;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.5rem;
+      color: #222;
+      border-left: 5px solid #cc9933;
+      padding-left: 0.5rem;
     }
 
-    .cta-button {
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    .cta {
       display: inline-block;
-      background-color: #003049;
-      color: #fff;
+      margin-top: 1.5rem;
+      background-color: #cc9933;
+      color: white;
       padding: 0.75rem 1.5rem;
-      border-radius: 6px;
       text-decoration: none;
+      border-radius: 5px;
       font-weight: bold;
-      transition: background-color 0.3s ease;
     }
 
-    .cta-button:hover {
-      background-color: #005fa3;
-    }
-
-    .pricing-plan {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      padding: 1.5rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    .cta:hover {
+      background-color: #b3822b;
     }
 
     footer {
-      text-align: center;
-      padding: 2rem;
       background-color: #111;
-      color: #999;
-    }
-
-    .feedback-section textarea {
-      width: 100%;
-      padding: 1rem;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      margin-top: 1rem;
-    }
-
-    .feedback-section button {
-      margin-top: 0.75rem;
-      background-color: #003049;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .feedback-section button:hover {
-      background-color: #005fa3;
-    }
-
-    .features-list li {
-      margin-bottom: 0.5rem;
-    }
-
-    .highlight {
-      background-color: #ffe4b5;
-      padding: 0.5rem;
-      border-left: 4px solid #003049;
-      margin-bottom: 1rem;
+      color: #f5f0e6;
+      text-align: center;
+      padding: 2rem 1rem;
     }
   </style>
 </head>
-
 <body>
   <header>
     <h1>Tanatrade Analytics</h1>
-    <p>Soluciones de análisis financiero potenciado por IA, diseñado para inversionistas modernos y analistas inteligentes.</p>
+    <p>Reportes financieros impulsados por inteligencia artificial. Precisión. Velocidad. Visión.</p>
   </header>
-
-  <div class="hero-image"></div>
 
   <main>
     <section>
+      <h2>¿Qué es Tanatrade?</h2>
+      <p>Tanatrade Analytics es una plataforma de análisis financiero automático que transforma grandes volúmenes de datos en decisiones accionables. Diseñado para inversores, analistas y empresas que desean tener ventaja en un entorno económico cada vez más competitivo.</p>
+      <p>Nuestra inteligencia artificial estudia tendencias de mercado, detecta anomalías, y resume oportunidades claves en informes comprensibles y visuales.</p>
+    </section>
+
+    <section>
+      <h2>¿A quién va dirigido?</h2>
+      <p>Tanatrade está pensado para:</p>
+      <ul>
+        <li>Inversores individuales que desean decisiones informadas sin depender de asesores tradicionales.</li>
+        <li>Startups y empresas que quieren monitorizar sectores, competidores o flujos económicos globales.</li>
+        <li>Profesionales del área financiera que quieren automatizar parte de su trabajo analítico.</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>¿Por qué elegirnos?</h2>
-      <ul class="features-list">
-        <li>Análisis automatizado 24/7 con datos reales de mercado</li>
-        <li>Alertas inteligentes y recomendaciones accionables</li>
-        <li>Visualizaciones modernas, claras y detalladas</li>
-        <li>Precios accesibles y sin complicaciones</li>
+      <p>En Tanatrade, no creemos en los consejos genéricos. Cada informe es generado en tiempo real usando modelos estadísticos y aprendizaje automático, lo que garantiza que cada recomendación se adapta al contexto actual y específico del activo analizado.</p>
+      <p>Priorizamos:</p>
+      <ul>
+        <li><strong>Transparencia:</strong> cada gráfico y dato tiene su fuente.</li>
+        <li><strong>Velocidad:</strong> actualizamos los reportes de forma continua con los datos más recientes.</li>
+        <li><strong>Accesibilidad:</strong> lenguaje comprensible y visualizaciones directas.</li>
+      </ul>
+    </section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanatrade Analytics</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfaf4;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      color: #e7dbc1;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #444;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    .cta {
+      display: inline-block;
+      margin: 1rem 0;
+      padding: 1rem 2rem;
+      background-color: #004f83;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .cta:hover {
+      background-color: #00395d;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    .plan {
+      background-color: #faf5ec;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tanatrade Analytics</h1>
+    <p>Inteligencia Financiera Automatizada para Decisiones de Alto Nivel</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es Tanatrade Analytics?</h2>
+      <p>Tanatrade Analytics es un servicio de informes financieros automáticos generados por algoritmos avanzados de inteligencia artificial. Procesamos datos del mercado en tiempo real para ofrecerle análisis claros, objetivos y listos para tomar decisiones.</p>
+      <p>Nuestros informes incluyen indicadores clave, alertas de riesgo, visualizaciones profesionales y recomendaciones basadas en patrones de datos históricos.</p>
+    </section>
+
+    <section>
+      <h2>¿A quién va dirigido?</h2>
+      <ul>
+        <li>Inversores individuales que buscan maximizar su rendimiento con información precisa.</li>
+        <li>Pequeñas empresas que desean entender sus riesgos y oportunidades en el mercado.</li>
+        <li>Analistas financieros que quieren automatizar parte de su flujo de trabajo con herramientas profesionales.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>¿Por qué elegirnos?</h2>
+      <p>En un mundo saturado de datos y plataformas, destacamos por ofrecer:</p>
+      <ul>
+        <li><strong>Calidad:</strong> Informes claros, detallados y directamente accionables.</li>
+        <li><strong>Automatización:</strong> Usted recibe todo sin tener que configurar nada.</li>
+        <li><strong>Accesibilidad:</strong> Tarifas justas para contenido de alto valor.</li>
+        <li><strong>Transparencia:</strong> Nada de humo, solo datos, análisis y resultados.</li>
       </ul>
     </section>
 
     <section>
       <h2>Planes disponibles</h2>
-      <div class="pricing-plan">
-        <p><strong>Plan completo - $9/mes</strong></p>
-        <p>Acceso total a todos los informes, alertas y visualizaciones.</p>
-        <a href="#" class="cta-button">Suscribirse</a>
+      <div class="plan">
+        <p><strong>Plan completo - $9/mes</strong><br>Acceso total a todos los informes, alertas y visualizaciones.</p>
+        <a class="cta" href="#">Suscribirse</a>
       </div>
-      <div class="pricing-plan">
-        <p><strong>Informe único - $6.99</strong></p>
-        <p>Compra puntual del informe más reciente sin suscripción.</p>
-        <a href="#" class="cta-button">Comprar Informe</a>
+      <div class="plan">
+        <p><strong>Informe único - $6.99</strong><br>Compra puntual del informe más reciente.</p>
+        <a class="cta" href="#">Comprar informe</a>
       </div>
     </section>
 
     <section>
       <h2>Ejemplo de reporte</h2>
-      <div class="highlight">
-        Descargue un ejemplo del informe generado por nuestro sistema automatizado de inteligencia financiera.
-      </div>
-      <a class="cta-button" href="chat%20y%20gemini.pdf" target="_blank">Ver Reporte PDF</a>
+      <p>Vea un informe generado automáticamente para uno de nuestros activos modelo:</p>
+      <a class="cta" href="https://mmm7776.github.io/finanzas/chat%20y%20gemini.pdf" target="_blank">Ver Reporte PDF</a>
     </section>
 
     <section>
       <h2>Contacto</h2>
-      <p>Escríbanos directamente para consultas personalizadas, integraciones API o colaboraciones comerciales:</p>
-      <a class="cta-button" href="mailto:tanatrade27@gmail.com">tanatrade27@gmail.com</a>
-    </section>
-
-    <section class="feedback-section">
-      <h2>Comentarios de usuarios</h2>
-      <p>Comparta su opinión sobre nuestros servicios:</p>
-      <textarea placeholder="Escriba aquí su comentario..."></textarea><br>
-      <button>Enviar comentario</button>
+      <p>¿Desea recibir más información o contratar nuestros servicios?</p>
+      <a class="cta" href="mailto:tanatrade27@gmail.com">Contáctenos</a>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Tanatrade Analytics. Todos los derechos reservados.
+    <p>&copy; 2025 Tanatrade Analytics. Todos los derechos reservados.</p>
+    <p>Desarrollado con tecnología de inteligencia artificial para ofrecerle las mejores decisiones financieras.</p>
   </footer>
 </body>
 </html>
