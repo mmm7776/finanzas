@@ -3,132 +3,135 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insight Financiero Avanzado</title>
+  <title>Tanatrade Analytics</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'DM Serif Display', serif;
       margin: 0;
       padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-      line-height: 1.6;
+      background-color: #f5f1e6;
+      color: #1a1a1a;
     }
 
     header {
       background-color: #111;
-      color: white;
-      padding: 3rem 2rem;
+      color: #f5f1e6;
+      padding: 3rem 1rem 2rem 1rem;
       text-align: center;
     }
 
-    section {
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #f5f1e6;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      font-weight: 300;
+    }
+
+    main {
       max-width: 800px;
-      margin: 4rem auto;
+      margin: 3rem auto;
       padding: 2rem;
       background: white;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.08);
     }
 
-    h1, h2 {
-      margin-top: 0;
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
     }
 
     .cta {
       display: inline-block;
-      margin-top: 1rem;
-      background-color: #007acc;
-      color: white;
-      padding: 1rem 2rem;
+      margin-top: 1.5rem;
+      background-color: #1a1a1a;
+      color: #f5f1e6;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 4px;
+      font-size: 1rem;
     }
 
     .cta:hover {
-      background-color: #005fa3;
+      background-color: #333;
     }
 
-    .pricing {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    .plan {
-      background-color: #f0f0f0;
-      padding: 2rem;
-      border-radius: 8px;
+    footer {
       text-align: center;
-    }
-
-    .comment-box {
-      border-top: 1px solid #ccc;
-      padding-top: 2rem;
-    }
-
-    .note {
       font-size: 0.9rem;
-      color: #666;
-      margin-top: 1rem;
+      padding: 2rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Insight Financiero Avanzado</h1>
-    <p>Reportes automatizados. Análisis profesional. Datos reales.</p>
+    <h1>Tanatrade Analytics</h1>
+    <p>Informes financieros impulsados por IA. Precisión. Automatización. Acción.</p>
   </header>
 
-  <section>
-    <h2>¿Qué es este servicio?</h2>
-    <p>Un sistema de análisis financiero automático que genera informes claros y accionables para inversores, empresas y analistas que quieren ahorrar tiempo y tomar mejores decisiones.</p>
-  </section>
+  <main>
+    <section>
+      <h2>¿Qué es Tanatrade?</h2>
+      <p>Una plataforma de reportes financieros automatizados y análisis inteligentes. Combinamos datos reales con modelos de IA para entregarte informes profesionales, concisos y útiles. Sin relleno, sin esperas.</p>
+    </section>
 
-  <section>
-    <h2>Beneficios Clave</h2>
-    <ul>
-      <li>Informe actualizado automáticamente con datos reales.</li>
-      <li>Alertas ante movimientos significativos.</li>
-      <li>Análisis profesional sin lenguaje técnico.</li>
-      <li>Acceso instantáneo a las oportunidades detectadas.</li>
-    </ul>
-  </section>
+    <section>
+      <h2>¿A quién va dirigido?</h2>
+      <p>Tanatrade es para:</p>
+      <ul>
+        <li>Inversores que quieren tomar decisiones informadas.</li>
+        <li>Analistas y profesionales que valoran datos confiables.</li>
+        <li>Emprendedores que no tienen tiempo para procesar todo.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Ejemplo de Reporte</h2>
-    <p>Aquí puede ver un ejemplo de nuestro informe financiero:</p>
-    <a class="cta" href="chat%20y%20gemini.pdf" target="_blank">Ver Reporte PDF</a>
-  </section>
+    <section>
+      <h2>¿Por qué elegirnos?</h2>
+      <ul>
+        <li>Generado por inteligencia artificial.</li>
+        <li>Actualización automática con datos reales.</li>
+        <li>Alertas claras y visualizaciones potentes.</li>
+        <li>Sin tecnicismos innecesarios.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Planes</h2>
-    <div class="pricing">
-      <div class="plan">
-        <h3>Suscripción mensual</h3>
-        <p>$9 al mes</p>
-        <p>Reciba todos los informes de forma recurrente.</p>
-        <a class="cta" href="#">Suscribirse</a>
-      </div>
+    <section>
+      <h2>Planes disponibles</h2>
+      <p><strong>Plan completo - $9/mes</strong><br>Acceso total a todos los informes, alertas y visualizaciones.</p>
+      <p><strong>Informe único - $6.99</strong><br>Compra puntual del informe más reciente.</p>
+    </section>
 
-      <div class="plan">
-        <h3>Informe individual</h3>
-        <p>$6.99 pago único</p>
-        <p>Reciba el último informe publicado sin compromiso.</p>
-        <a class="cta" href="#">Comprar</a>
-      </div>
-    </div>
-    <p class="note">(Integración de pago en desarrollo)</p>
-  </section>
+    <section>
+      <h2>Ejemplo de reporte</h2>
+      <p>Descargue un ejemplo del informe financiero generado automáticamente por nuestro sistema:</p>
+      <a class="cta" href="./chat%20y%20gemini.pdf" target="_blank">Ver Reporte PDF</a>
+    </section>
 
-  <section>
-    <h2>Comentarios</h2>
-    <p>Esta sección está abierta a los comentarios reales de los usuarios. Pronto integraremos un sistema de opiniones en tiempo real.</p>
-  </section>
+    <section>
+      <h2>Contacto</h2>
+      <p>¿Le interesa el servicio o quiere más información?</p>
+      <a class="cta" href="mailto:tanatrade27@gmail.com">Escríbanos</a>
+    </section>
+  </main>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>¿Quiere acceder al servicio o necesita más información?</p>
-    <a class="cta" href="mailto:tanatrade27@gmail.com">Escribir al equipo</a>
-  </section>
+  <footer>
+    &copy; Tanatrade Analytics · Reportes financieros generados por IA · Todos los derechos reservados.
+  </footer>
 </body>
 </html>
