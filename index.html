@@ -11,6 +11,7 @@
       padding: 0;
       background-color: #fdfcf8;
       color: #333;
+      line-height: 1.8;
     }
 
     header {
@@ -19,56 +20,75 @@
       padding: 3rem 1rem;
       text-align: center;
     }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+    header h1 { font-size: 2.6rem; margin: .5rem 0 0; }
+    header p { font-size: 1.15rem; max-width: 760px; margin: .5rem auto 0; }
+    header .logo {
+      max-width: 200px; margin: 0 auto 1rem;
+      display: block;
     }
-
-    header p {
-      font-size: 1.25rem;
-      max-width: 700px;
-      margin: 0 auto;
+    header .hero {
+      text-align:center; margin-top: 1.5rem;
+    }
+    header .hero img {
+      max-width: 100%; height: auto; border-radius: 12px;
     }
 
     main {
       max-width: 900px;
       margin: 3rem auto;
-      padding: 1rem;
-      background-color: white;
+      padding: 1.25rem 1.25rem 2rem;
+      background-color: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
 
-    section {
-      margin-bottom: 3rem;
-    }
-
+    section { margin-bottom: 3rem; }
     h2 {
       color: #222;
       border-left: 5px solid #cc9933;
       padding-left: 0.5rem;
+      margin-top: 0;
     }
+    p { font-size: 1.05rem; }
 
-    p {
-      line-height: 1.8;
-      font-size: 1.1rem;
+    ul { padding-left: 1.25rem; }
+
+    .plan {
+      background-color: #faf5ec;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-top: 1rem;
     }
 
     .cta {
       display: inline-block;
-      margin-top: 1.5rem;
+      margin-top: 1rem;
       background-color: #cc9933;
-      color: white;
+      color: white !important;
       padding: 0.75rem 1.5rem;
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
+      border: 0;
+      cursor: pointer;
     }
+    .cta:hover { background-color: #b3822b; }
 
-    .cta:hover {
-      background-color: #b3822b;
+    /* Bloque Generar Informe */
+    .form-row {
+      display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+      margin-top: 12px;
     }
+    input[type="text"] {
+      flex: 1 1 240px;
+      padding: 12px 14px;
+      border: 1px solid #cc9933;
+      border-radius: 8px;
+      background: #fffdf9;
+      font-family: inherit; font-size: 16px;
+    }
+    .note { min-height: 1.5em; margin-top: 8px; color: #666; font-size: 0.98rem; }
 
     footer {
       background-color: #111;
@@ -80,121 +100,16 @@
 </head>
 <body>
   <header>
-    <h1>Tanatrade Analytics</h1>
-    <p>Reportes financieros impulsados por inteligencia artificial. Precisión. Velocidad. Visión.</p>
+    <!-- Logo (opcional, ya lo tenías) -->
+    <img class="logo" src="assets/Logotipo Tipográfico Iniciales Moderno Negro.png" alt="Logo Tanatrade">
+
+    <h1>Tanatrade: Insight Financiero Avanzado</h1>
+    <p>IA al servicio de tus inversiones. Reportes claros, datos reales.</p>
+
+    <div class="hero">
+      <img src="assets/ChatGPT Image 31 ago 2025, 01_03_57.png" alt="Ilustración IA Tanatrade">
+    </div>
   </header>
-
-  <main>
-    <section>
-      <h2>¿Qué es Tanatrade?</h2>
-      <p>Tanatrade Analytics es una plataforma de análisis financiero automático que transforma grandes volúmenes de datos en decisiones accionables. Diseñado para inversores, analistas y empresas que desean tener ventaja en un entorno económico cada vez más competitivo.</p>
-      <p>Nuestra inteligencia artificial estudia tendencias de mercado, detecta anomalías, y resume oportunidades claves en informes comprensibles y visuales.</p>
-    </section>
-
-    <section>
-      <h2>¿A quién va dirigido?</h2>
-      <p>Tanatrade está pensado para:</p>
-      <ul>
-        <li>Inversores individuales que desean decisiones informadas sin depender de asesores tradicionales.</li>
-        <li>Startups y empresas que quieren monitorizar sectores, competidores o flujos económicos globales.</li>
-        <li>Profesionales del área financiera que quieren automatizar parte de su trabajo analítico.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>¿Por qué elegirnos?</h2>
-      <p>En Tanatrade, no creemos en los consejos genéricos. Cada informe es generado en tiempo real usando modelos estadísticos y aprendizaje automático, lo que garantiza que cada recomendación se adapta al contexto actual y específico del activo analizado.</p>
-      <p>Priorizamos:</p>
-      <ul>
-        <li><strong>Transparencia:</strong> cada gráfico y dato tiene su fuente.</li>
-        <li><strong>Velocidad:</strong> actualizamos los reportes de forma continua con los datos más recientes.</li>
-        <li><strong>Accesibilidad:</strong> lenguaje comprensible y visualizaciones directas.</li>
-      </ul>
-    </section>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tanatrade Analytics</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      background-color: #fdfaf4;
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #111;
-      color: #e7dbc1;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem 2rem;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      line-height: 1.6;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #444;
-    }
-    p {
-      margin-bottom: 1rem;
-    }
-    .cta {
-      display: inline-block;
-      margin: 1rem 0;
-      padding: 1rem 2rem;
-      background-color: #004f83;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .cta:hover {
-      background-color: #00395d;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    footer {
-      background-color: #111;
-      color: #ccc;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-    }
-    .plan {
-      background-color: #faf5ec;
-      padding: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      margin-top: 1rem;
-    }
-  </style>
-</head>
-<body>
- <header>
-  <img src="assets/Logotipo Tipográfico Iniciales Moderno Negro.png" alt="Logo Tanatrade" style="max-width: 200px; margin-bottom: 1rem; display: block; margin-left: auto; margin-right: auto;">
-  <h1>Tanatrade: Insight Financiero Avanzado</h1>
-  <p>IA al servicio de tus inversiones. Reportes claros, datos reales.</p>
-  <div style="text-align:center; margin-top: 1.5rem;">
-    <img src="assets/ChatGPT Image 31 ago 2025, 01_03_57.png" alt="Ilustración IA Tanatrade" style="max-width: 100%; height: auto; border-radius: 12px;" />
-  </div>
-</header>
-
 
   <main>
     <section>
@@ -223,14 +138,25 @@
       </ul>
     </section>
 
+    <!-- 🔥 NUEVO: Generar informe conectado a tu API -->
+    <section id="generar-informe">
+      <h2>Generar informe en tiempo real</h2>
+      <p>Introduce el símbolo y descarga el PDF profesional (ej. <strong>AAPL</strong>, <strong>TSLA</strong>, <strong>BTC-USD</strong>).</p>
+      <div class="form-row">
+        <input id="tt-symbol" type="text" placeholder="AAPL" aria-label="Símbolo">
+        <button id="tt-generate" class="cta" type="button">Descargar PDF</button>
+      </div>
+      <p id="tt-msg" class="note"></p>
+    </section>
+
     <section>
       <h2>Planes disponibles</h2>
       <div class="plan">
-        <p><strong>Plan completo - $9/mes</strong><br>Acceso total a todos los informes, alertas y visualizaciones.</p>
+        <p><strong>Plan completo — $9/mes</strong><br>Acceso total a todos los informes, alertas y visualizaciones.</p>
         <a class="cta" href="#">Suscribirse</a>
       </div>
       <div class="plan">
-        <p><strong>Informe único - $6.99</strong><br>Compra puntual del informe más reciente.</p>
+        <p><strong>Informe único — $6.99</strong><br>Compra puntual del informe más reciente.</p>
         <a class="cta" href="#">Comprar informe</a>
       </div>
     </section>
@@ -238,19 +164,71 @@
     <section>
       <h2>Ejemplo de reporte</h2>
       <p>Vea un informe generado automáticamente para uno de nuestros activos modelo:</p>
-      <a class="cta" href="1.pdf" target="_blank">Ver Reporte PDF</a>
+      <a class="cta" href="1.pdf" target="_blank" rel="noopener">Ver Reporte PDF</a>
     </section>
 
     <section>
       <h2>Contacto</h2>
       <p>¿Desea recibir más información o contratar nuestros servicios?</p>
       <a class="cta" href="mailto:tanatrade27@gmail.com?subject=Solicitud de información sobre Tanatrade&body=Hola, estoy interesado en recibir más información sobre los servicios de análisis financiero.">Contáctenos</a>
-   </section>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Tanatrade Analytics. Todos los derechos reservados.</p>
     <p>Desarrollado con tecnología de inteligencia artificial para ofrecerle las mejores decisiones financieras.</p>
   </footer>
+
+  <script>
+    // ⚠️ CAMBIA ESTA URL cuando publiques la API
+    // Local en tu Mac:
+    const API_BASE = "http://127.0.0.1:8000";
+    // Ejemplo online (Render/Railway):
+    // const API_BASE = "https://tu-api-publica.onrender.com";
+
+    async function generarInformeTanatrade() {
+      const input = document.getElementById("tt-symbol");
+      const msg   = document.getElementById("tt-msg");
+      const symbol = (input.value || "").trim().toUpperCase();
+
+      if (!symbol) {
+        msg.textContent = "Introduce un símbolo válido (por ejemplo: AAPL, TSLA, BTC-USD).";
+        return;
+      }
+
+      msg.textContent = "Generando informe…";
+      try {
+        const url = `${API_BASE}/report?symbol=${encodeURIComponent(symbol)}`;
+        const res = await fetch(url, { method: "GET" });
+
+        if (!res.ok) {
+          let detail = "Error al generar el informe.";
+          try {
+            const j = await res.json();
+            if (j && j.detail) detail = j.detail;
+          } catch (_) {}
+          throw new Error(detail);
+        }
+
+        const blob = await res.blob();
+        const filename = `${symbol}.pdf`;
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        URL.revokeObjectURL(link.href);
+        link.remove();
+        msg.textContent = `Informe ${filename} generado correctamente.`;
+      } catch (e) {
+        msg.textContent = e.message || "Error inesperado al generar el informe.";
+      }
+    }
+
+    document.getElementById("tt-generate").addEventListener("click", generarInformeTanatrade);
+    document.getElementById("tt-symbol").addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter") generarInformeTanatrade();
+    });
+  </script>
 </body>
 </html>
